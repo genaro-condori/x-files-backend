@@ -1,7 +1,8 @@
+---
 deployment:
   tasks:
     - export TARGET=/home/aadubolc/public_html/xfiles-backend
-    - /bin/cp requirements.txt $TARGET    
+    - /bin/cp requirements.txt $TARGET
     - /bin/cp passenger_wsgi.py $TARGET
     - /bin/cp manage.py $TARGET
     - /bin/cp .env.production  $TARGET/.env
@@ -12,6 +13,3 @@ deployment:
     - /bin/cp -r static $TARGET/
     - /bin/cp -r staticfiles $TARGET/
     - /bin/cp -r vilco_project $TARGET/
-
-
-
