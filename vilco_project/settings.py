@@ -54,7 +54,6 @@ INSTALLED_APPS = [
     'django_filters',
 #    "dj_rest_auth",
     "corsheaders",
-    'taggit',
     "drf_spectacular",
 
     "accounts.apps.AccountsConfig",
