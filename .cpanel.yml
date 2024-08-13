@@ -6,10 +6,10 @@ deployment:
     - /bin/cp passenger_wsgi.py $TARGET
     - /bin/cp manage.py $TARGET
     - /bin/cp .env.production  $TARGET/.env
+    - /bin/cp -r vilco_project $TARGET/
     - /bin/cp -r accounts $TARGET/
     - /bin/cp -r documents $TARGET/
-    - /bin/cp -r media $TARGET/
-    - /bin/cp -r ref_table $TARGET/
-    - /bin/cp -r static $TARGET/
-    - /bin/cp -r staticfiles $TARGET/
-    - /bin/cp -r vilco_project $TARGET/
+    - /bin/cp -r ref_table $TARGET/   
+#    - /bin/cp -r media $TARGET/
+#    - /bin/cp -r static $TARGET/
+#    - /bin/cp -r staticfiles $TARGET/
