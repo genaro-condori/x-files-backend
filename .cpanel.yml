@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export TARGET=/home/aadubolc/public_html/xfiles-backend
+    - export TARGET=/home/aadubolc/xfiles-backend
     - /bin/cp requirements.txt $TARGET
     - /bin/cp passenger_wsgi.py $TARGET
     - /bin/cp manage.py $TARGET
